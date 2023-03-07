@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span id='github-link'>깃허브로 이동</span>
+    <a href="https://www.naver.com">네이버 링크</a>
+    <a href="https://www.google.com" target="_blank">구글 링크</a>
+    <a href="../2.컨텐츠 태그/2.목록태그.html">목록태그 페이지</a>
+    <a href="tel:+821039094145">문의전화</a>
+    <a href="mailto:taegeun4145@gamil.com">문의전화</a>
+
+    <div id="top">
+        <h1>안녕하세요</h1>
+
+        <p style="height: 2000px;">반갑습니다.</p>
+    </div>
+    <a href=" #top">맨 위로 이동</a>
+    <!-- 이동하고 싶은 아이디 입력 -->
+
+    <script>
+        const $spanLink
+            = document.getElementById('github-link');
+
+        $spanLink.onclick = e => {
+            window.location.href = 'https://github.com';
+        };
+    </script>
+</body>
+
+</html>
