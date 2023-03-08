@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        /* #fruits li:nth-child(2n) {
+            color: red;
+        } */
+        #fruits li:nth-child(5) {
+            color: chartreuse;
+        }
+        #fruits li:first-child{
+            color: green;
+        }
+        #fruits li:last-child{
+            color: turquoise;
+        }
+        #fruits li:nth-child(odd) {
+            color: red;
+        }
+        #fruits li:nth-child(even) {
+            color: blue;
+        }
+        #fruits li:not(.orange){
+            font-style: italic;
+        }
+        /* orange를 제외하고 */
+
+        /* li의 주의사항 */
+        .main p:nth-child(2){
+            font-size: 1.5em;
+            color: red;
+        }
+        /* main의 후손(div,p,h1)중의 2번째 p태그를 찾아라 */
+    </style>
+</head>
+
+<body>
+    <ul id="fruits">
+        <li>딸기</li>
+        <li>사과</li>
+        <li class="orange">오렌지</li>
+        <li class="mango">망고</li>
+        <li>바나나</li>
+        <li>자몽</li>
+        <li>라임</li>
+    </ul>
+
+    <section class="main">
+        <div>안녕1</div>
+        <p>안녕2</p>
+        <p>안녕3</p>
+        <h1>안녕4</h1>
+    </section>
+</body>
+
+</html>
