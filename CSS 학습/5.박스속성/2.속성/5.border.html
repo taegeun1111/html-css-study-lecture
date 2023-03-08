@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin-top: 100px;
+            
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            background: gray;
+            box-sizing: border-box;
+            margin: 10px auto 0;
+        }
+
+        .box1 {
+            background: tomato;
+            /* 선의 굵기 */
+            border-width: 10px;
+            border-color: rebeccapurple;
+            border-style: solid;
+        }
+        .box2{
+            background: aqua;
+            border: 2px dashed green;
+        }
+        .box3{
+            background: red;
+            border-bottom: 40px solid green;
+            border-radius: 20px 20px 0px 0px;
+        }
+        .container .box4{
+            width: 40px;
+            height: 60px;
+            margin: 0 auto;
+            background: peru; 
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+
+</html>

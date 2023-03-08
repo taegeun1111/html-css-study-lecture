@@ -7,10 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            box-sizing: border-box;
+        }
         .container{
             width: 500px;
             height: 500px;
             background: orange;
+           
+            /* 패딩을 사용하면 계산을 해서 가로 길이를 의도적으로 줄어줘야 한다. */
+            /* 패딩이나,보더로 가로세로가 변하는걸 방지 */
+            
         }
         .box{
             width: 250px;
@@ -18,11 +25,36 @@
             background: tomato;
             font-size: 2em;
             color: white;
+            
+        }
+        .card{
+            width: 370px;
+            height: 450px;
+            
+            background: lightgray;
+            margin: 100px auto 100px;
+            padding : 10px;
+            box-shadow: 4px 6px 3px gray;
+        }
+        .card .img-box{
+            
+            height: 350px;
+            background: white;
+            
+        }
+        .text-box{
+            padding-left: 5px;
         }
     </style>
 </head>
 
 <body>
+    <div class="card">
+        <div class="img-box"></div>
+        <p class="text-box">
+            텍스트
+        </p>
+    </div>
     <div class="container">
         <div class="box">
             안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요

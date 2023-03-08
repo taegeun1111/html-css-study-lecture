@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            width: 300px;
+            height: 250px;
+            border: 4px solid gray;
+            overflow: auto;
+
+
+        }
+
+        .parent .child {
+            width: 100px;
+            height: 100px;
+            background: red;
+            border: 4px solid orange;
+            font-size: 40px;
+
+        }
+
+        .parent .child:hover {
+            opacity: 0.6;
+        }
+
+        /* ----------------------------------------- */
+        * {
+            box-sizing: border-box;
+        }
+
+        .album {
+            width: 300px;
+            height: 400px;
+            border: 2px solid gray;
+            padding: 40px;
+            margin: 100px auto;
+        }
+
+        .album .img-box {
+
+            height: 300px;
+            border: 2px solid lightgray;
+            overflow: hidden;
+        }
+        .album img-box img{
+            width: 300px;
+            position: ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="album">
+        <div class="img-box">
+            <img src="https://www.sciencetimes.co.kr/wp-content/uploads/2021/02/H197_%EA%B8%B0%EC%96%B5%EB%A0%A5%EC%9D%B4-%EB%A7%A4%EC%9A%B0-%EB%82%98%EC%81%9C-%EB%8C%80%ED%91%9C%EC%A0%81%EC%9D%B8-%EB%8F%99%EB%AC%BC%EB%A1%9C-%EC%9E%98%EB%AA%BB-%EC%95%8C%EB%A0%A4%EC%A7%84-%EA%B8%88%EB%B6%95%EC%96%B4_GNU-Free-480x360.jpg" alt="">
+        </div>
+    </div>
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+    </div>
+</body>
+
+</html>
