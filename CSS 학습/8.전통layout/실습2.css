@@ -1,0 +1,73 @@
+body {
+  font-family: serif;
+}
+.container {
+  width: 700px;
+  background-color: gray;
+  border: 3px double #000;
+  margin: 40px auto 0;
+}
+/* header 부분 상단 */
+.container header h1 {
+  text-align: center;
+  background-color: lightgray;
+  font-size: 40px;
+  padding: 30px;
+  font-weight: 600;
+}
+.container header h2 {
+  text-align: center;
+  background-color: #393939;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+}
+/* h2 노랗게 */
+.container header h2 b {
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 하단 박스 부분 */
+.container section article {
+  float: left;
+  width: 23.75%;
+  margin-right: 1%;
+  height: 260px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+}
+.container section article:last-child {
+  /* margin-right: 0; */
+}
+.container section article:nth-child(1) {
+  background-color: rgb(192, 0, 0);
+  margin-left: 1%;
+}
+.container section article:nth-child(2) {
+  background-color: plum;
+}
+.container section article:nth-child(3) {
+  background-color: orange;
+}
+.container section article:nth-child(4) {
+  background-color: yellow;
+}
+/* 이미지 영역 */
+.container section article img {
+  overflow: hidden;
+  width: 95%;
+  height: 110px;
+  margin: 5px auto 0;
+  display: block;
+  
+  border: 1px solid lightgray;
+}
+/* 텍스트 영역 */
+.container section article .text {
+  line-height: 18px;
+  font-size: 15px;
+  padding: 15px 15px 0;
+}
