@@ -1,0 +1,70 @@
+/* 전체 박스 */
+#wrapper {
+  width: 70%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+/* 타이틀 */
+#wrapper header h1{
+    background: rgb(35, 35, 69);
+    color: yellow;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: 700;
+    
+}
+#wrapper header h1 strong{
+    font-size: 5em;
+    font-weight: 700;
+    color: white;
+}
+#wrapper header h1 span{
+    font-size: 2.5em;
+    font-weight: 700;   
+}
+#wrapper header h1 em{
+    font-size: 3.5em;
+    font-weight: 700;
+    color: white;   
+}
+
+/* ul li 영역 */
+
+.container .menu{
+    float: left;
+    width: 15%;
+    background: lightgray;
+    height: 600px;
+    padding: 20px;
+}
+.container .menu li{
+    line-height: 2;
+    /* font-size: 0.8em; */
+}
+
+/* 텍스트 영역 */
+.container .content{
+    float: left;
+    width: 85%;
+    height: 600px;
+}
+.container .content h2{
+    background: rgb(130, 35, 35);
+    color: yellow;
+    padding: 15px 0px 15px 20px;
+    font-size: 1.8em;
+    letter-spacing: 5px;
+}
+.container .content p{
+    padding: 30px 20px;
+    line-height: 1.5em;
+}
+
+/* footer영역 */
+footer{
+    background: rgb(166, 166, 166);
+    padding: 20px 0px 20px 20px;
+}

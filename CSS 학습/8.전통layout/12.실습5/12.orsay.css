@@ -1,0 +1,142 @@
+/* 전체 박스 영역 */
+#wrapper {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #d7d7d7;
+  /* position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+   */
+}
+
+/* 타이틀 영역 */
+header {
+  text-align: center;
+}
+header h1 {
+  font-family: "optima-regular";
+  background: #ff9a2f;
+  color: white;
+  font-size: 82px;
+  padding-top: 20px;
+}
+header h1 span {
+  display: block;
+  color: white;
+  font-size: 14px;
+  padding: 15px 0px 10px;
+  font-family: "optima-regular";
+  letter-spacing: 0.5px;
+}
+
+.stit {
+  background: rgb(154, 154, 154);
+  font-family: "avenir";
+  font-size: 12px;
+  padding: 5px 0;
+  color: rgb(67, 67, 67);
+}
+/* ---박스영역 폰트 지정--- */
+.container {
+  font-family: "optima-regular", "APPLE SD GOTHIC NEO";
+}
+/* ---박스영역 나눠주기, 패딩,마진--- */
+.container .side-menu {
+  float: left;
+  width: 25%;
+  /* background: gray; */
+  /* height: 600px; */
+}
+.container .main-content {
+  float: left;
+  width: 50%;
+  background: rgb(213, 213, 213);
+  /* height: 600px; */
+  padding: 20px 10px 0px 10px;
+}
+.container .banner {
+  float: left;
+  width: 25%;
+  /* background: gray; */
+  /* height: 600px; */
+}
+
+/* ---왼쪽 사이드 영역--- */
+.container .side-menu h3 {
+  background: rgb(161, 0, 0);
+  color: white;
+  padding: 10px 0px 10px 15px;
+  font-size: 0.9em;
+}
+.container .side-menu ul {
+  color: black;
+  padding: 10px 0px 10px 15px;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* ---메인 컨텐츠 영역--- */
+.container .main-content .art-piece .title {
+  background: #6a6a6a;
+  padding: 8px 10px;
+  font-size: 0.9em;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.art-piece .title a {
+  text-decoration: none;
+}
+
+.container .main-content .art-piece .artist {
+  padding: 15px 10px 12px 10px;
+  font-weight: 700;
+  color: black;
+}
+.container .main-content .art-piece .detail {
+  font-size: 0.75em;
+  padding: 0px 10px 30px 10px;
+  color: black;
+}
+
+/* ---우측 사이드 영역--- */
+.container .banner {
+  padding: 20px;
+}
+.container .banner h3 {
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container .banner .all {
+  color: gray;
+  text-decoration: underline;
+  display: block;
+}
+.container .banner .love {
+  color: #ff9a2f;
+  text-decoration: underline;
+  display: block;
+}
+.container .banner .link {
+  font-size: 0.75em;
+  line-height: 1.4;
+}
+.container .banner .link a {
+  display: block;
+  font-family: "optima-bold";
+}
+.container .banner .link li {
+  margin-bottom: 7px;
+}
+
+/* ---footer 영역--- */
+footer {
+  background: rgb(154, 154, 154);
+  font-family: "avenir";
+  font-size: 13px;
+  padding: 7px 0;
+  color: rgb(67, 67, 67);
+  text-align: center;
+}

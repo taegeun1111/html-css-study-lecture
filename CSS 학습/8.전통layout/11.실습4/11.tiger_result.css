@@ -1,0 +1,12 @@
+/* base style */
+body{
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+#wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+/* header style */
