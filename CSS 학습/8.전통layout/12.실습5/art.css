@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+li {
+  list-style: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  background: #aaa;
+}
+
+#wrapper {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* header style */
+header {
+  background: #fa0;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 6em;
+  font-weight: 700;
+  padding: 10px;
+}
+
+header h1 span {
+  font-size: 15px;
+  display: block;
+  margin-top: 3px;
+}
+
+header .stit {
+  background: #ccc;
+  color: #333;
+  font-family: "avenir";
+}
+
+/* container style */
+.container {
+  background: blue;
+}
+
+.container > * {
+  float: left;
+}
+
+/* > .side-menu */
+.container .side-menu {
+  width: 25%;
+}
+.container .side-menu h3 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #fff;
+  background: #900;
+  padding: 10px;
+}
+.container .side-menu ul {
+  margin-top: 5px;
+}
+.container .side-menu ul li {
+  padding: 10px;
+}
+.container .side-menu ul li a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.container .side-menu ul li a:hover {
+  border-bottom: 1px dashed #000;
+}
+/* > .main-content */
+.container .main-content {
+  background: rgb(160, 237, 45);
+  width: 50%;
+  color: #123456;
+}
+.container .main-content .art-piece {
+  margin-top: 10px;
+  font-size: 1.3em;
+  padding: 10px;
+}
+.container .main-content .art-piece .title{
+    color: #ddd;
+    background: #123456;
+    padding: 7px 5px;
+}
+
+.container .main-content .art-piece .title a{
+    color: #000;
+    display: block;
+}
+.container .main-content .art-piece .title li{
+color: white;
+} 
+    
+/* > .banner */
+.container .banner {
+  background: violet;
+  width: 25%;
+}
